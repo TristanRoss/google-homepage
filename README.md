@@ -1,0 +1,1 @@
+Here is my recreation of the Google homepage. I used HTML lists, links, divs, and forms. For CSS I used various selecting methods such as accesing elements children (element > children). I changed background colors, font colors, font families. I resized elements and repositioned elements. Finally I also used flexbox to center elements vertically and horizontally.
