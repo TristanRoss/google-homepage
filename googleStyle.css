@@ -1,90 +1,86 @@
-body, html {
-    height: 100%;
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    margin: 0;
+body {
+    font-family: Roboto, sans-serif;
+}
+
+#logo {
+    width: 100px;
+    float: left;
+    padding: 20px;
+}
+
+form {
+    float: left;
+    padding-top: 18px;
+}
+
+#search {
+    background: url(images/search-solid.svg) no-repeat;
+    background-size: 15px;
+    background-position: right 20px center;
+    width: 500px;
+    border-radius: 50px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+button {
+    float: right;
+    margin: 20px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+#grid {
+    float: right;
+    padding: 30px;
+    padding-right: 10px;
 }
 
 ul {
     list-style-type: none;
-    padding-left: 0;
-}
-
-.wrapper {
-    padding-top: 11.1%;
+    padding-left: 150px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    clear: both;
+    border-bottom: 1px solid rgb(201, 201, 201);
 }
 
 li {
     display: inline;
-    padding: 8px;
-}
-
-li.tower {
-    display: initial;
-}
-
-input {
-    width: 100%;
-}
-
-#grid {
-    height: 20px; width: 20px;
-}
-
-.topList > li > a {
-    color: black;
-}
-
-.bottomBackground {
-    height: 40px;
-    background-color: #f2f2f2;
-}
-
-.bottomList > li > a {
-    color: #5f6368;
-}
-
-.bottomList > li {
-    margin-top: 4px;
-    margin-bottom: 5px;
-}
-
-li:first-child {
-    padding-left: 25px;
-}
-
-li:nth-child(3) {
-    padding-right: 25px;
-}
-
-.middle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 60%;
+    font-size: 13px;
 }
 
 .left {
-    float: left;
+    padding-right: 10px;
 }
 
 .right {
-    float: right;
+    padding-left: 50px;
 }
 
-a:link {
+p {
+    font-size: 14px;
+    padding-left: 150px;
+    margin-top: 5px;
+    color: gray;
+}
+
+a {
+    padding-left: 150px;
+    font-size: 20px;
     text-decoration: none;
 }
 
-a:visited {
-    text-decoration: none;
+.narrow {
+    width: 500px;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    text-decoration: underline;
+h1 {
+    font-size: 14px;
+    padding-left: 150px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
 }
